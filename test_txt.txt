@@ -1,1 +1,12 @@
-print('1234')
+git init
+
+git remote add origin https://github.com/u5071/git_test.git
+
+git add .
+git config --global user.email yang5071@gmail.com
+git config --global user.name "yang5071"
+git commit -m "TEST_COMMIT"
+
+git push origin master
+git pull origin master -- allow-unrelated-histories
+
